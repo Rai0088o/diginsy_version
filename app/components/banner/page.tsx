@@ -24,11 +24,9 @@ export default function Banner() {
             />
           </video>{" "}
           {/*  */}
-          <ServiceList/>
-          <OurWork/>
-          
+          <ServiceList />
+          <OurWork />
           {/* <Partner/> */}
-          
         </div>
         <div className=" flex-col flex items-center justify-center mt-40 text-[31px] font-semibold py-8 ">
           <h2 className="text-[#FFFFFF] text-[20px] text-center md:text-[30px] md:font-extrabold leading-10 tracking-wider">

@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import bg_myImg from "./Images/MBnflN.png";
 import Footer from "@/components/shared/Footer";
-import { Mail, MapIcon, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 export default function Contact() {
   return (
