@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import bg_myImg from "./backgroundImage/bg_image.png";
+import { Separator } from "@/components/ui/separator";
 
 export default function Digital() {
   const rednerDigital = [
@@ -31,7 +32,7 @@ export default function Digital() {
     },
   ];
   return (
-    <main className="absolute top-[4900px] w-full h-[114rem]">
+    <main className="absolute top-[4580px] w-full h-[114rem]">
       <Image
         alt="Mountains"
         src={bg_myImg}
@@ -47,27 +48,32 @@ export default function Digital() {
       <div>
         {" "}
         <div className="absolute top-[60px] mx-20 mb-20 ">
-          <h1 className="text-[#FFFFFF] text-[20px] font-bold">
+          <h1 className="text-1xl font-medium text-[#E7071A]">
             DIGITAL TRENDS
           </h1>
-          <h1 className="text-[#FFFFFF] text-[38px] font-extrabold w-[770px] leading-tight">
-            Worth A Read
+          <h1 className="text-[#FFFFFF] text-[38px] font-bold w-[770px] leading-tight">
+            Worth A <span className="text-[#E7071A]">Read</span>
           </h1>
         </div>
-        <div className="absolute top-[200px] left-[50px] flex justify-center items-center text-center flex-wrap gap-10 mx-20  ">
+        <Separator />
+        <div
+          className="absolute top-[200px] left-2  flex  justify-between items-center text-center space-x-10 mx-20
+      
+        "
+        >
           {rednerDigital.map(({ img, desription, id }) => {
             return (
-              <div>
-                <div key={id}>
-                  <Image
-                    src={img}
-                    width={378}
-                    height={200}
-                    alt="Picture of the author"
-                  />
-                  {/* <p className="text-[#FFFFFF] py-6 text-left">{desription}</p> */}
-                </div>
-                {/* <p className="text-[#FFFFFF] py-6 text-left text-[16px]"> {desription}</p> */}
+              <div key={id}>
+                {/* <div > */}
+                <Image
+                  src={img}
+                  width={400}
+                  height={180}
+                  alt="Picture of the author"
+                />
+                <p className="text-[#FFFFFF] py-6 text-left w-[370px]">
+                  {desription}
+                </p>
               </div>
             );
           })}

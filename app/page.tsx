@@ -7,18 +7,25 @@ import OurExperts from "./components/ourexperts/page";
 import Team from "./components/teams/page";
 import Digital from "./components/digitaltrends/page";
 import Contact from "./(root)/contact/page";
+import Footer from "@/components/shared/Footer";
+import FooterExam from "./components/footer/page";
 
 export default function Home() {
   return (
     <>
       <main>
         <Banner />
-         <ServiceList />
-       <OurWork />
         <Partner />
         <OurExperts />
         <Team />
-        <Digital /> 
+        <Digital />
+        {/* <FooterExam/> */}
+       
+        {/* <ServiceList /> */}
+        {/* <OurWork />
+        <Partner />
+        <OurExperts />
+         */}
         {/* <Contact/> */}
       </main>
     </>

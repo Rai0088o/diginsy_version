@@ -3,6 +3,8 @@ import Header from "../../../components/shared/Header";
 import { Button } from "@/components/ui/button";
 import Partner from "../partner/page";
 import ServiceList from "@/components/shared/Card";
+import OurWork from "../ourwork/page";
+import Footer from "@/components/shared/Footer";
 
 export default function Banner() {
   return (
@@ -21,8 +23,11 @@ export default function Banner() {
               type="video/mp4"
             />
           </video>{" "}
-          {/* <Partner/> */}
+          {/*  */}
           <ServiceList/>
+          <OurWork/>
+          
+          {/* <Partner/> */}
           
         </div>
         <div className=" flex-col flex items-center justify-center mt-40 text-[31px] font-semibold py-8 ">

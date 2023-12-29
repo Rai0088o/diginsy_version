@@ -10,7 +10,7 @@ export default function OurExperts() {
     "https://diginsy.com/wp-content/uploads/2023/10/peWwXP-1.png"
   );
   return (
-    <main className=" absolute top-[3200px] w-full h-[124rem] ">
+    <main className="absolute top-[3200px] w-full h-[100rem] ">
       <Image
         alt="Mountains"
         src={bg_myImg}
@@ -22,9 +22,8 @@ export default function OurExperts() {
           height: "40%",
         }}
       />
-
       <div
-        className=" absolute -top-[120px] flex-col flex items-center justify-center mt-56  "
+        className=" absolute -top-[170px] flex-col flex items-center justify-center mt-56  "
         style={{
           position: "absolute",
           left: 0,
@@ -39,7 +38,6 @@ export default function OurExperts() {
         <h1 className="text-[59px] font-[700] leading-[50px] text-[#FFFFFF]">
           Recognized Digital Agency Experts
         </h1>
-
         <div className="mt-10">
           <Button
             className=" text-[18px] leading-[26px] font-[700]  bg-transparent hover:bg-transparent px-40"

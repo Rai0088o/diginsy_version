@@ -18,6 +18,10 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        "nature-light": "url('https://diginsy.com/wp-content/uploads/2023/06/Group-14100-min.png')",
+       
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

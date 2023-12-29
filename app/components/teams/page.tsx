@@ -1,12 +1,6 @@
 import React from "react";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Separator } from "@/components/ui/separator";
+
 import Image from "next/image";
 export default function Team() {
   const rednerTeam = [
@@ -37,23 +31,42 @@ export default function Team() {
   ];
   return (
     <>
-      <main className=" absolute top-[4200px] w-full flex justify-center gap-8 ">
-        {rednerTeam.map(({ name, img, title }) => (
-          <div className="max-w-sm  overflow-hidden shadow-lg rounded-md" key={name}>
-            <Image
-              className="w-full"
-              src={img}
-              width={400}
-              height={200}
-              alt="Sunset in the mountains"
-            />
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">{name}</div>
-              <p className="text-gray-700 text-base">{title}</p>
-            </div>
+      <div>
+        <main className="absolute top-[3880px] mx-20">
+          <div>
+            <p className="text-1xl font-medium text-[#E7071A]">
+              MEET THE EXPERTS{" "}
+            </p>
+            <p className="text-3xl font-bold mb-2">
+              Our <span className="text-[#E7071A]">Team</span>
+            </p>
           </div>
-        ))}
-      </main>
+          <Separator />
+
+          <div className="grid grid-cols-4 gap-20 w-full mt-16">
+            {rednerTeam.map(({ name, img, title }) => (
+              <div
+                className="max-w-sm  overflow-hidden shadow-lg rounded-lg"
+                key={name}
+              >
+                <Image
+                  className="w-full"
+                  src={img}
+                  width={430}
+                  height={200}
+                  alt="Sunset in the mountains"
+                />
+                <div className="px-6 py-4">
+                  <div className="font-bold text-xl text-[#042F41]">{name}</div>
+                  <p className="text-gray-400 text-base font-normal leading-10 tracking-wider">
+                    {title}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </main>
+      </div>
     </>
   );
 }
