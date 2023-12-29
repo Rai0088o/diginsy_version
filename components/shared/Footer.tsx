@@ -1,19 +1,41 @@
+import { Mail, MapPin, Phone } from "lucide-react";
 import React from "react";
 
 export default function Footer() {
   return (
-    <div className="w-screen grid grid-cols-2 ">
-      <div className="bg-[#EC4414] flex flex-col justify-center text-center py-10">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+    <div className="md:w-screen grid grid-cols-2 ">
+      <div className="bg-[#EC4414] flex flex-col justify-center  py-10">
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white text-right mx-20">
           Together We Build Jaw-Dropping Websites
         </h1>
-        <p className="leading-relaxed text-base">
+        <p className="leading-relaxed text-base text-white text-right mx-9">
           We await you! Share your idea with us and we’ll make sure to turn it
           into a digital reality!
         </p>
-        <p>8870 Business Park, Ste 500 Austin, TX 78759</p>
-        <p>support@diginsy.com</p>
-        <p>(512) 354-4525</p>
+        <div className="flex gap-6 justify-center text-[#FFFFFF]">
+          {" "}
+          <p>
+            {" "}
+            <MapPin />
+          </p>
+          <p className="">8870 Business Park, Ste 500 Austin, TX 78759</p>
+        </div>
+        <div className="flex gap-6 ml-[300px] text-[#FFFFFF]">
+          {" "}
+          <p>
+            {" "}
+            <Mail />
+          </p>
+          <p className="">support@diginsy.com</p>
+        </div>
+        <div className="flex gap-6 ml-[300px] text-[#FFFFFF]">
+          {" "}
+          <p>
+            {" "}
+            <Phone />
+          </p>
+          <p className="">(512) 354-4525</p>
+        </div>
       </div>
 
       <div className="flex bg-[#363636] items-center justify-left">

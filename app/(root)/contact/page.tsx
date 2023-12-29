@@ -18,7 +18,6 @@ export default function Contact() {
           style={{
             objectFit: "cover",
             width: "100%",
-
             backgroundRepeat: "no-repeat",
           }}
         />
