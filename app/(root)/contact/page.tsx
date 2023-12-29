@@ -21,7 +21,7 @@ export default function Contact() {
             backgroundRepeat: "no-repeat",
           }}
         />
-        <div className="flex flex-col justify-center items-center mt-10 mx-[370px]">
+        <div className="flex flex-col justify-center items-center mt-10 md:mx-[370px]">
           <h1 className="text-[45px] font-[900] text-center bg-gradient-to-r from-red-600 to-red-400 bg-clip-text text-transparent">
             We’ve driven over 6,437,349 leads for clients through digital
             marketing.
