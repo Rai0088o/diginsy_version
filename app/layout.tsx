@@ -9,7 +9,6 @@ const montserrat = Montserrat({
   weight: ["400", "500", "600", "700"],
   variable: "--font-poppins",
 });
-
 const metadata: Metadata = {
   title: "Diginsy",
   description: "a digital ",
@@ -18,7 +17,6 @@ const metadata: Metadata = {
   },
 };
 export { metadata };
-
 export default function RootLayout({
   children,
 }: {
@@ -29,7 +27,7 @@ export default function RootLayout({
       <body className={montserrat.variable}>
         <Header />
         <main className="flex-1"> {children}</main>
-       
+
         {/* <div className="absolute bottom-0 left-0">
  
         <Footer />
