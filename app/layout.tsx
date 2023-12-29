@@ -29,8 +29,9 @@ export default function RootLayout({
       <body className={montserrat.variable}>
         <Header />
         <main className="flex-1"> {children}</main>
+       
         {/* <div className="absolute bottom-0 left-0">
-
+ 
         <Footer />
         </div> */}
       </body>

@@ -13,25 +13,19 @@ export default function Footer() {
           into a digital reality!
         </p>
         <div className="flex gap-6 justify-center text-[#FFFFFF]">
-          {" "}
           <p>
-            {" "}
             <MapPin />
           </p>
           <p className="">8870 Business Park, Ste 500 Austin, TX 78759</p>
         </div>
         <div className="flex gap-6 ml-[300px] text-[#FFFFFF]">
-          {" "}
           <p>
-            {" "}
             <Mail />
           </p>
           <p className="">support@diginsy.com</p>
         </div>
         <div className="flex gap-6 ml-[300px] text-[#FFFFFF]">
-          {" "}
           <p>
-            {" "}
             <Phone />
           </p>
           <p className="">(512) 354-4525</p>

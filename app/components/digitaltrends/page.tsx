@@ -57,7 +57,7 @@ export default function Digital() {
         </div>
         <Separator />
         <div
-          className="absolute top-[200px] left-2  flex  justify-between items-center text-center space-x-10 mx-20
+          className="absolute top-[200px] left-2  flex flex-col md:flex-row flex-wrap md:justify-between items-center text-center space-x-10 mx-20
         "
         >
           {rednerDigital.map(({ img, desription, id }) => {

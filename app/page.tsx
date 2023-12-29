@@ -9,6 +9,7 @@ import Digital from "./components/digitaltrends/page";
 import Contact from "./(root)/contact/page";
 import Footer from "@/components/shared/Footer";
 import FooterExam from "./components/footer/page";
+import FooterBanner from "./components/footer/page";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <OurExperts />
         <Team />
         <Digital />
+        <FooterBanner/>
         {/* <FooterExam/> */}
        
         {/* <ServiceList /> */}
