@@ -38,6 +38,7 @@ export default function Digital() {
         src={bg_myImg}
         quality={100}
         sizes="100vw"
+        
         style={{
           objectFit: "cover",
           width: "100%",

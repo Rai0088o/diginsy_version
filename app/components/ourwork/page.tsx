@@ -39,7 +39,7 @@ export default function OurWork() {
   return (
     // w-full  h-[120rem]
 
-    <main className="absolute  md:top-[1800px]    bg-nature-light bg-cover object-cover bg-center h-[175rem]  md:h-[57rem] lg:[40rem] xl:[10rem]  w-full ">
+    <main className="absolute  md:top-[1800px]    bg-nature-light bg-cover object-cover bg-center h-[175rem]  md:h-[57rem] lg:[90rem] xl:[10rem]  w-full ">
       {/* <Image
         alt="Mountains"
         src={bg_myImg}
@@ -56,7 +56,7 @@ export default function OurWork() {
       <div>
         {" "}
         <div className="absolute top-[60px] mx-1 md:mx-20 mb-20 ">
-          <h1 className="text-[#E70722] text-[18px] font-semibold tracking-wider">
+          <h1 className="text-[#E70722] text-[18px] font-semibold tracking-wider ">
             OUR WORK
           </h1>
           <h1 className="text-[#FFFFFF] text-[20px] md:text-[36px] font-bold  md:w-[740px] leading-tight">

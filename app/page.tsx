@@ -17,10 +17,13 @@ export default function Home() {
       <main>
         <Banner />
         <Partner />
-        <OurExperts />
-        <Team />
+        {/* <OurExperts /> */}
+
+        {/* <Team />
         <Digital />
-        <FooterBanner/>
+        <FooterBanner/> */}
+
+
         {/* <FooterExam/> */}
        
         {/* <ServiceList /> */}
