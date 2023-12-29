@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Poppins, Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/shared/Header";
 import Footer from "@/components/shared/Footer";
 
-const poppins = Poppins({
+const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-poppins",
@@ -26,9 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.variable}>
+      <body className={montserrat.variable}>
         <Header />
-       <main className="flex-1"> {children}</main>
+        <main className="flex-1"> {children}</main>
         {/* <div className="absolute bottom-0 left-0">
 
         <Footer />
@@ -37,9 +37,3 @@ export default function RootLayout({
     </html>
   );
 }
-{/* <div className="flex h-screen flex-col ">
-<main className="flex-1">{children}</main>
-<Header />
-<main className="flex-1">{children}</main>
-<Footer />
-</div> */}
